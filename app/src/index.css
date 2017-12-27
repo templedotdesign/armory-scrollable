@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=BioRhyme:400,700');
+
+html { 
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: 'BioRhyme', sans-serif;
+}
+
+.Toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+}
+
+.Toolbar a {
+  height: 100%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.Toolbar button:focus {
+  border: none;
+}
+
+.Home {
+  height: 100vh;
+  background-image: url('./Assets/Couple.jpg');
+  background-size: cover;
+  display: flex;
+}
+
+.TextBox {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.History {
+  height: 100vh;
+  padding-top: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.History img {
+  width: 30%;
+  cursor: pointer;
+}
+
+.Column {
+  margin: 0 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.History h1 {
+  text-align: center;
+}
+
+.Receptions {
+  height: 100vh;
+  padding-top: 55px;
+  border: 1px solid red;
+}
+
+.Receptions h1 {
+  text-align: center;
+}
+
+.Membership {
+  padding-top: 55px;
+  height: 100vh;
+}
+
+.Membership h1 {
+  text-align: center;
+}
+
+.Contact {
+  padding-top: 55px;
+  height: 100vh;
+}
+
+.Contact h1 {
+  text-align: center;
+}
+
+.FAQ {
+  padding-top: 55px;
+  height: 100vh;
+}
+
+.FAQ h1 {
+  text-align: center;
+}
+
+.Row {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, 0.7);
+  z-index: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Invisible {
+  display: none;
+}
+
+.Modal {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.Photograph {
+  width: 33%;
+}
+
+.Photograph img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Photograph p {
+  font-family: 'sans-serif';
+  text-align: center;
+}
