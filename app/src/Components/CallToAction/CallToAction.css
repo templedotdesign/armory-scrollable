@@ -1,0 +1,34 @@
+.CallToAction {
+  width: 80%;
+  height: 20vh;
+  border: 1px solid black;
+  margin: 3% auto;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.CallToAction h3, p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.CallToAction a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.CallToAction a:hover {
+  color: white;
+  background-color: black;
+}
+
+.Links {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

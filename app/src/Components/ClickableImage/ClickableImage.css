@@ -1,0 +1,37 @@
+.ClickableImage {
+  width: 30vw;
+  height: 40vh;
+  background-size: cover; 
+  cursor: pointer;
+  border-radius: 5px; 
+}
+
+.Corner {
+  background-image: url('../../Assets/Corner.jpeg');
+  background-position: center;
+}
+
+.Car {
+  background-image: url('../../Assets/Car.jpeg');
+  background-position: center;
+} 
+
+.Basketball {
+  background-image: url('../../Assets/Basketball.jpeg');
+  background-position: center;
+}
+
+.Damage {
+  background-image: url('../../Assets/Damage.jpeg');
+  background-position: center;
+}
+
+.Castle {
+  background-image: url('../../Assets/Castle.jpeg');
+  background-position: center;
+}
+
+.Ballroom {
+  background-image: url('../../Assets/Ballroom.jpeg');
+  background-position: center;
+}

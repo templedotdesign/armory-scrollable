@@ -1,0 +1,28 @@
+.Modal {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.CloseButton {
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 10px 10px 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}

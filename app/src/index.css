@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: aliceblue;
+  background-color: #eee;
   font-family: 'BioRhyme', sans-serif;
 }
 
@@ -59,6 +59,29 @@ body {
   color: white;
 }
 
+.About {
+  height: 100vh;
+  padding-top: 55px;
+}
+
+.About h1, h3 {
+  text-align: center;
+}
+
+.Castle {
+  background-image: url('./Assets/Castle.jpeg');
+  background-size: cover;
+  width: 25vw;
+  height: 30vh;
+}
+
+.Ballroom {
+  background-image: url('./Assets/Ballroom.jpeg');
+  background-size: cover;
+  width: 25vw;
+  height: 30vh;
+}
+
 .History {
   height: 100vh;
   padding-top: 55px;
@@ -88,11 +111,17 @@ body {
 .Receptions {
   height: 100vh;
   padding-top: 55px;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .Receptions h1 {
   text-align: center;
+}
+
+.Receptions p {
+  margin: 0 20px;
 }
 
 .Membership {
@@ -128,45 +157,10 @@ body {
   align-items: flex-start;
 }
 
-.Overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0,0,0, 0.7);
-  z-index: 200;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.Invisible {
-  display: none;
-}
-
-.Modal {
-  width: 80%;
-  height: 80%;
-  background-color: white;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.Footer {
+  background-color: black;
+  color: white;
   text-align: center;
-}
-
-.Photograph {
-  width: 33%;
-}
-
-.Photograph img {
-  width: 80%;
-  margin: 0 auto;
-}
-
-.Photograph p {
-  font-family: 'sans-serif';
-  text-align: center;
+  width: 100%;
+  padding: 5px;
 }

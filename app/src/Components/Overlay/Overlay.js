@@ -1,9 +1,11 @@
 import React from 'react';
 
+import classes from './Overlay.css';
+
 const overlay = (props) => {
-  let attachedClasses = ['Overlay']
+  let attachedClasses = [classes.Overlay]
   if(props.visible === false) {
-    attachedClasses.push('Invisible');
+    attachedClasses.push(classes.Invisible);
   }
   return (
     <div className={attachedClasses.join(' ')} onClick={props.clicked}>
